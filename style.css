@@ -34,14 +34,14 @@ html   {
     display: flex;
     justify-content: center;
     width: 30%;
-    margin-left: 35%;
+    margin-left: 34%;
 }
 
 .glow{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: principal;
     color: white; 
         animation: glow 0.5s ease-in-out infinite alternate;
@@ -86,7 +86,7 @@ html   {
 }
 
 .buttonNFTs{
-    width: 230px;
+    width: 250px;
     color: red;
     border-radius: 100px;
     border: none;
@@ -99,4 +99,9 @@ html   {
 
 .buttonNFTs:hover{
     cursor: pointer;
+}
+
+.swal2-popup{
+  font-family: principal;
+  font-size:medium;
 }
